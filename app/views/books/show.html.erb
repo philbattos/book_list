@@ -1,0 +1,6 @@
+<h1><%= @book.title %></h1>
+<h3>Author: <%= @book.author %></h3>
+<br>Notes: <%= @book.notes %>
+
+<p> <%= link_to "Edit Book", edit_book_path(@book) %>
+<p> <%= link_to "Back to Book List", books_path %>
